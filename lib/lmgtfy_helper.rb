@@ -1,5 +1,1 @@
-require 'lmgtfy_helper/version'
-
-module LmgtfyHelper
-  # Your code goes here...
-end
+require 'lmgtfy_helper/railtie' if defined?(Rails)
