@@ -1,10 +1,14 @@
 module LetMeGoogleThatForYouHelper
   module ViewHelpers
 
-    def lmgtfy_button phrase
-      link_to 'Let me google that for you... idiot...',
-        link(phrase),
-        class: 'btn btn-large lmgtfu-btn'
+    def lmgtfy_button phrase, label = nil
+      if label.present?
+        link_to label, link(phrase), class: 'btn btn-large lmgtfu-btn'
+      else
+        link_to 'Let me google that for you...',
+          link(phrase),
+          class: 'btn btn-large lmgtfu-btn'
+      end
     end
 
     def link phrase
