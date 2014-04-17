@@ -1,4 +1,4 @@
-require 'lmgtfy_helper/view_helper'
+require 'lmgtfy_helper/view_helpers'
 
 describe LetMeGoogleThatForYouHelper::ViewHelpers do
 
