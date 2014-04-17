@@ -1,6 +1,7 @@
+[![Build Status](https://travis-ci.org/ja999/lmgtfy_helper.svg?branch=master)](https://travis-ci.org/ja999/lmgtfy_helper)
 # LmgtfyHelper
 
-TODO: Write a gem description
+A simple gem yet funny gem for automated LetMeGoogleThatForYou searches.
 
 ## Installation
 
@@ -18,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Anywhere in you applications views you can call the lmgtfy_button helper method. :)
 
 ## Contributing
 
