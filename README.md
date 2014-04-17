@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/ja999/lmgtfy_helper.svg?branch=master)](https://travis-ci.org/ja999/lmgtfy_helper)
+[![Code Climate](https://codeclimate.com/github/ja999/lmgtfy_helper.png)](https://codeclimate.com/github/ja999/lmgtfy_helper)
 # LmgtfyHelper
 
 A simple gem yet funny gem for automated LetMeGoogleThatForYou searches.
