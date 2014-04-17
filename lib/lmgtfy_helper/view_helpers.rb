@@ -3,11 +3,11 @@ module LetMeGoogleThatForYouHelper
 
     def lmgtfy_button phrase, label = nil
       if label.present?
-        link_to label, link(phrase), class: 'btn btn-large lmgtfu-btn'
+        link_to label, link(phrase), class: 'btn btn-large lmgtfy-btn'
       else
         link_to 'Let me google that for you...',
           link(phrase),
-          class: 'btn btn-large lmgtfu-btn'
+          class: 'btn btn-large lmgtfy-btn'
       end
     end
 
